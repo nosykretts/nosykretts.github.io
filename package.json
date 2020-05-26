@@ -1,0 +1,21 @@
+{
+  "name": "nosykretts.github.io",
+  "version": "1.0.0",
+  "description": "My personal and portofolio website. Need Gatsby JS for blogging sistem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir -p build/assets && cp -a index.html assets ./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosykretts/nosykretts.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosykretts/nosykretts.github.io/issues"
+  },
+  "homepage": "https://github.com/nosykretts/nosykretts.github.io#readme"
+}

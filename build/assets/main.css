@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v16/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJdTIkQYohD4BpHvJ3NvbHoA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+body{
+  font-family: Roboto, sans-serif !important;
+  color: #022139;
+  background: white;
+  font-weight: 300;
+  border-top: solid 10px rgb(30, 214, 138);
+}
+.main,nav, header{
+  max-width: 650px;
+}
+.main{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  line-height: 140%;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(30, 214, 138);
+  font-weight: 300;
+}
+
+p{
+  /* margin-bottom: 20px; */
+ 
+}
+/* NAV */
+
+nav{
+  background: #FDFFFC;
+  margin: auto;
+  padding: 0 20px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+nav ul{
+  list-style: none;
+  
+  margin: 0;
+  padding: 15px 0;
+  
+}
+nav ul li{
+  
+  text-align: center;
+
+  float: left;
+  padding: 0;
+  padding-right: 20px;
+ 
+}
+nav a{
+  font-weight: bold;
+  color: #011627;
+  text-transform: uppercase;
+  font-size: 100%;
+  line-height: 160%;
+  vertical-align: text-bottom;
+  
+}
+
+nav a:active, nav a:hover{
+  color: rgb(30, 214, 138) !important;
+  font-weight: normal;
+}
+
+header{
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.mylogo{
+  color: rgb(30, 214, 138);
+  font-weight: 400;
+  /* font-size: 120%; */
+  /* border-bottom: solid 1px rgb(30, 214, 138); */
+  letter-spacing: 10px;
+}
+
+header h1{
+  /* background: rgb(101, 78, 226); */
+  /* line-height: 200px; */
+  /* border-bottom: solid 2px rgb(29, 231, 150); */
+  margin: 10px 0 0 0;
+  display: inline-block;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 90%;
+  margin-top: 40px;
+  font-family: Roboto, sans-serif !important;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid rgb(30, 214, 138);
+  margin: 1em 0;
+}
+
+footer{
+  margin-top: 50px;
+  padding: 20px 0;
+  font-size: small;
+  /* border-top: 5px solid rgb(30, 214, 138); */
+  text-align: center;
+}
+.green-text{
+  color: rgb(30, 214, 138);
+}
+.box{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  /* float: left; */
+  border-radius: 4px;
+}
+.main{
+  background: white;
+  padding: 20px;
+  margin: auto;
+}
+
+.main img{
+  /* max-width: inherit; */
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.signature{
+  font-size: 50%;
+  font-weight: normal;
+  /* vertical-align: baseline; */
+}
+
+.myprofile{
+  background: #e4e4e4;
+  padding: 20px;
+  margin-top:50px;
+  text-align: center;
+  font-size: small;
+}
+
+.myprofile p{
+  color: #022139;  
+}
+
+.myprofile > img{
+  width: 120px;
+  border-radius: 100px;
+  border: solid 3px white;
+}
+
+.linked-profile{
+  list-style: none;
+  margin: 20px 0 0 0;
+  float: none;
+  text-align: center;
+  padding:0;
+  font-size: smaller;
+}
+
+.linked-profile li{
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
+  background: rgb(30, 214, 138);
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px
+}
+
+.linked-profile li a{
+  font-family: Roboto;
+  color: white;
+  font-weight: 300;
+}
+@media only screen 
+and (max-device-width: 736px) 
+and (orientation: portrait) {
+  nav ul{
+    margin-bottom: 150px;
+  }
+  nav ul li{
+    /* float: left; */
+    /* display: block; */
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
