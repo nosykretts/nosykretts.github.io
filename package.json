@@ -1,21 +1,19 @@
 {
-  "name": "nosykretts.github.io",
-  "version": "1.0.0",
-  "description": "My personal and portofolio website. Need Gatsby JS for blogging sistem.",
-  "main": "index.js",
+  "name": "fajar.dev",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf build && mkdir -p build/assets && cp -a index.html assets ./build/"
+    "dev": "astro dev --reload",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nosykretts/nosykretts.github.io.git"
+  "devDependencies": {
+    "astro": "^0.21.0-next.12",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.19"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nosykretts/nosykretts.github.io/issues"
-  },
-  "homepage": "https://github.com/nosykretts/nosykretts.github.io#readme"
+  "dependencies": {}
 }
