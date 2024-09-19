@@ -1,50 +1,113 @@
 ---
-let title = 'M Fajar Andi Patappari';
+// import "@fontsource-variable/roboto-mono";
+import "../styles/global.css";
+
+let title = "M Fajar Andi Patappari";
 ---
+
 <html lang="en">
-<head>
- <meta charSet="utf-8" />
-    <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="High caffeinated fullstack javascript developer on deadline.">
+    <meta
+      name="description"
+      content="High caffeinated fullstack javascript developer on deadline."
+    />
     <title>{title}</title>
-    <link rel="stylesheet" type="text/css" href={Astro.resolve('../styles/global.css')} />
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/img/manifest.json">
-    <meta name="msapplication-TileColor" content="#00000">
-    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#00000">
-</head>
-<body class="antialiased bg-black text-gray-300">
-<main class="container mx-auto xl:max-w-screen-lg mb-52 mt-10 flex flex-col gap-32">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/img/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/img/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/img/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/img/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/manifest.json" />
+    <meta name="msapplication-TileColor" content="#00000" />
+    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#00000" />
+  </head>
+  <body class="antialiased bg-black text-gray-300">
+    <main
+      class="container mx-auto xl:max-w-screen-lg mb-52 mt-10 flex flex-col gap-32"
+    >
       <section>
         <a href="/" class="text-lg tracking-widest">fajar.dev</a>
       </section>
       <section>
         <h1 class="text-ungu text-8xl">Hello World</h1>
-        
       </section>
       <section>
         <p class="text-2xl mb-2">I’m</p>
         <h2 class="text-ungu text-4xl mb-2">Fajar Patappari</h2>
-        <p class="text-2xl">Software Engineer </p>
+        <p class="text-2xl">Software Engineer</p>
       </section>
-      <section class="text-sm xs:text-xl flex flex-col gap-6">
+      <section class="text-lg sm:text-xl flex flex-col gap-6">
         <p>
           I love building Javascript things with React, React Native, NodeJS,
           GraphQL and AWS.
@@ -60,22 +123,36 @@ let title = 'M Fajar Andi Patappari';
             <h3 class="text-3xl">Work</h3>
           </div>
           <div>
-            <p><a href="/" class="text-ungu text-xl">PT Stellar Mulia Abadi</a></p>
+            <p>
+              <a href="/" class="text-ungu text-xl">PT Stellar Mulia Abadi</a>
+            </p>
             <p class="text-lg">Fullstack Web developer</p>
             <p class="text-lg">2018 - 2019</p>
           </div>
           <div>
-            <p><a href="https://www.bizzy.co.id/" class="text-ungu text-xl">PT Bizzy Indonesia</a></p>
+            <p>
+              <a href="https://www.bizzy.co.id/" class="text-ungu text-xl"
+                >PT Bizzy Indonesia</a
+              >
+            </p>
             <p class="text-lg">Fullstack Javascript Engineer</p>
             <p class="text-lg">2019 - 2021</p>
           </div>
           <div>
-            <p><a href="https://www.sicepat.com/" class="text-ungu text-xl">PT Sicepat Express Indonesia</a></p>
+            <p>
+              <a href="https://www.sicepat.com/" class="text-ungu text-xl"
+                >PT Sicepat Express Indonesia</a
+              >
+            </p>
             <p class="text-lg">Backend Engineer</p>
             <p class="text-lg">2021 - 2022</p>
           </div>
           <div>
-            <p><a href="https://fr8labs.co/" class="text-ungu text-xl">Fr8Labs.co</a></p>
+            <p>
+              <a href="https://fr8labs.co/" class="text-ungu text-xl"
+                >Fr8Labs.co</a
+              >
+            </p>
             <p class="text-lg">Full Stack Developer</p>
             <p class="text-lg">2022 - 0000</p>
           </div>
@@ -85,30 +162,51 @@ let title = 'M Fajar Andi Patappari';
             <h3 class="text-3xl">Education</h3>
           </div>
           <div>
-            <p><a href="https://www.wicida.ac.id/" class="text-ungu text-xl">STMIK Widya Cipta Dharma</a></p>
+            <p>
+              <a href="https://www.wicida.ac.id/" class="text-ungu text-xl"
+                >STMIK Widya Cipta Dharma</a
+              >
+            </p>
             <p class="text-lg">Bachelors of Informatics Engineering.</p>
             <p class="text-lg">Samarinda - 2016</p>
           </div>
           <div>
-            <p><a href="https://www.hacktiv8.com/" class="text-ungu text-xl">Hacktiv8 Bootcamp</a></p>
+            <p>
+              <a href="https://www.hacktiv8.com/" class="text-ungu text-xl"
+                >Hacktiv8 Bootcamp</a
+              >
+            </p>
             <p class="text-lg">Fullstack Javascript Immersive Program.</p>
             <p class="text-lg">Jakarta - 2018</p>
           </div>
         </div>
       </section>
       <section class="flex flex-col gap-3 text-xl">
-        <p><a href="https://www.linkedin.com/in/muhammad-fajar-andi-patappari" class="text-ungu font-bold">Reach me on Linkedin &gt;&gt;</a></p>
-        <p><a href="https://github.com/nosykretts" class="text-ungu font-bold">Checkout my Github &gt;&gt;</a></p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/muhammad-fajar-andi-patappari"
+            class="text-ungu font-bold">Reach me on Linkedin &gt;&gt;</a
+          >
+        </p>
+        <p>
+          <a href="https://github.com/nosykretts" class="text-ungu font-bold"
+            >Checkout my Github &gt;&gt;</a
+          >
+        </p>
       </section>
     </main>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55845096-2"></script>
-    <script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-55845096-2"></script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-55845096-2');
+      gtag("config", "UA-55845096-2");
     </script>
-</body>
+  </body>
 </html>
